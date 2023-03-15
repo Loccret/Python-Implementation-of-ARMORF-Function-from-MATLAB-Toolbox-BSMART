@@ -2,12 +2,19 @@
 Python Implementation of ARMORF Function from MATLAB Toolbox BSMART
 ## How to use
 ```
-x = [1]
+import numpy as np
+from matplotlib import pyplot as plt
+
+
+# Create a toy series
+x = [1]   
 for i in range(30):
     x.append(1.1 * x[-1])
 
+# Compute the AR factor
 Ax, Ex = armorf(np.asarray(x).reshape(1, -1),1,len(x),2)
 
+# Fit a new series using AR factor
 y = [1, 1.1]
 factor_0, factor_1 = np.squeeze(Ax)
 for i in range(30):
@@ -15,7 +22,7 @@ for i in range(30):
 
 plt.figure()
 plt.clf()
-plt.plot(np.asarray(x)-0.5, label='x')
+plt.plot(np.asarray(x)-0.5, label='x')  # Adjust the intercept of x for better visualization
 plt.plot(y, label='y')
 plt.legend()
 plt.show()
