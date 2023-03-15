@@ -3,7 +3,9 @@ Python Implementation of ARMORF Function from MATLAB Toolbox BSMART
 
 ARMORF can be used to compute autoregressive factors and to measure [Granger causality](https://en.wikipedia.org/wiki/Granger_causality).
 
-Ref: M. Morf, etal, Recursive Multichannel Maximum Entropy Spectral Estimation,
+Ref: 
+
+     M. Morf, etal, Recursive Multichannel Maximum Entropy Spectral Estimation,
             IEEE trans. GeoSci. Elec., 1978, Vol.GE-16, No.2, pp85-94.
             
      S. Haykin, Nonlinear Methods of Spectral Analysis, 2nd Ed.
