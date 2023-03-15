@@ -13,7 +13,7 @@ Reference:
 ```
 import numpy as np
 from matplotlib import pyplot as plt
-
+from armorf imoirt armorf
 
 # Create a toy series
 x = [1]   
