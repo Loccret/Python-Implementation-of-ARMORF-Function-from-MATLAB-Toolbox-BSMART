@@ -10,7 +10,7 @@ Reference:
             
 >Jie Cui, Lei Xu, Steven L. Bressler, Mingzhou Ding, Hualou Liang, BSMART: a Matlab/C toolbox for analysis of multichannel neural time series, Neural Networks, 21:1094 - 1104, 2008.
 ## :unicorn:How to use
-```
+```Python
 import numpy as np
 from matplotlib import pyplot as plt
 from armorf imoirt armorf
